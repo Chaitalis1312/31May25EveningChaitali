@@ -4,8 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features= {"C:\\Users\\admin\\eclipse-workspace\\coverFox\\src\\test\\resources\\FeatureFile\\CoverFoxHealthInsurance.feature"
-				//"C:\\Users\\admin\\eclipse-workspace\\coverFox\\src\\test\\resources\\FeatureFile\\errorcoverFox.feature"
+		features= {"D:\\chaitali project clone\\31May25EveningChaitali\\src\\test\\resources\\FeatureFile\\CoverFoxHealthInsurance.feature"
 		}
 			,glue= {"coverFoxStepDefinitions","hooks"},
 					plugin={"pretty","html:target/cucumber-reports/reports.html"},
