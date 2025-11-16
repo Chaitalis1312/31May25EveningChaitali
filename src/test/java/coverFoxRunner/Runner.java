@@ -8,7 +8,8 @@ import io.cucumber.testng.CucumberOptions;
 				//"C:\\Users\\admin\\eclipse-workspace\\coverFox\\src\\test\\resources\\FeatureFile\\errorcoverFox.feature"
 		}
 			,glue= {"coverFoxStepDefinitions","hooks"},
-					plugin={"pretty","html:target/cucumber-reports/reports.html"},
+					plugin={"pretty","html:target/cucumber-reports/reports.html",
+							"json:target/cucumber-reports/cucumber.json"},
 					publish= true,dryRun=false
 					)
 					
